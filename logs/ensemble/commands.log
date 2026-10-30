@@ -1,0 +1,959 @@
+Ensemble check: 2026-10-30T10:20:33.969953+00:00
+$ docker compose up -d --wait zk1 zk2 zk3
+ zk2 Pulling 
+ zk3 Pulling 
+ zk1 Pulling 
+ dbf6b9a60035 Pulling fs layer 
+ cf7e722f8b08 Pulling fs layer 
+ 69c4feeb20a6 Pulling fs layer 
+ 0626d3cc316c Pulling fs layer 
+ 958cbad593b0 Pulling fs layer 
+ bbbb64c5e42a Pulling fs layer 
+ 8b667949b7bc Pulling fs layer 
+ 3e5f8366d58f Pulling fs layer 
+ 143fbbb16e50 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 4f4fb700ef54 Already exists 
+ dbf6b9a60035 Pulling fs layer 
+ 8b667949b7bc Pulling fs layer 
+ 143fbbb16e50 Pulling fs layer 
+ bbbb64c5e42a Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 958cbad593b0 Pulling fs layer 
+ 3e5f8366d58f Pulling fs layer 
+ 69c4feeb20a6 Pulling fs layer 
+ 0626d3cc316c Pulling fs layer 
+ cf7e722f8b08 Pulling fs layer 
+ 4f4fb700ef54 Already exists 
+ dbf6b9a60035 Download complete 
+ 8b667949b7bc Downloading [==================================================>]  2.464kB/2.464kB
+ dbf6b9a60035 Download complete 
+ 69c4feeb20a6 Download complete 
+ 3e5f8366d58f Download complete 
+ 69c4feeb20a6 Download complete 
+ 8b667949b7bc Download complete 
+ 3e5f8366d58f Download complete 
+ 8b667949b7bc Download complete 
+ cf7e722f8b08 Downloading [=>                                                 ]  1.049MB/47.52MB
+ cf7e722f8b08 Downloading [==>                                                ]  2.097MB/47.52MB
+ cf7e722f8b08 Downloading [==>                                                ]  2.097MB/47.52MB
+ cf7e722f8b08 Downloading [===>                                               ]  3.146MB/47.52MB
+ cf7e722f8b08 Downloading [===>                                               ]  3.146MB/47.52MB
+ dbf6b9a60035 Pulling fs layer 
+ 69c4feeb20a6 Pulling fs layer 
+ bbbb64c5e42a Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 3e5f8366d58f Pulling fs layer 
+ cf7e722f8b08 Pulling fs layer 
+ 958cbad593b0 Pulling fs layer 
+ 0626d3cc316c Pulling fs layer 
+ 143fbbb16e50 Pulling fs layer 
+ 8b667949b7bc Pulling fs layer 
+ cf7e722f8b08 Downloading [====>                                              ]  4.194MB/47.52MB
+ 89a9c1c9e777 Download complete 
+ 4f4fb700ef54 Already exists 
+ 89a9c1c9e777 Download complete 
+ 8b667949b7bc Download complete 
+ 3e5f8366d58f Download complete 
+ dbf6b9a60035 Download complete 
+ cf7e722f8b08 Downloading [====>                                              ]  4.194MB/47.52MB
+ 69c4feeb20a6 Download complete 
+ cf7e722f8b08 Downloading [====>                                              ]  4.194MB/47.52MB
+ 89a9c1c9e777 Download complete 
+ cf7e722f8b08 Downloading [=====>                                             ]  5.243MB/47.52MB
+ cf7e722f8b08 Downloading [=====>                                             ]  5.243MB/47.52MB
+ cf7e722f8b08 Downloading [=====>                                             ]  5.243MB/47.52MB
+ 0626d3cc316c Downloading [=>                                                 ]  1.049MB/29.75MB
+ cf7e722f8b08 Downloading [=======>                                           ]   7.34MB/47.52MB
+ 0626d3cc316c Downloading [=>                                                 ]  1.049MB/29.75MB
+ cf7e722f8b08 Downloading [=======>                                           ]   7.34MB/47.52MB
+ 0626d3cc316c Downloading [=>                                                 ]  1.049MB/29.75MB
+ cf7e722f8b08 Downloading [=======>                                           ]   7.34MB/47.52MB
+ 0626d3cc316c Downloading [=>                                                 ]  1.049MB/29.75MB
+ bbbb64c5e42a Download complete 
+ cf7e722f8b08 Downloading [========>                                          ]  8.389MB/47.52MB
+ 143fbbb16e50 Downloading [==>                                                ]  1.049MB/22.98MB
+ cf7e722f8b08 Downloading [========>                                          ]  8.389MB/47.52MB
+ 0626d3cc316c Downloading [=>                                                 ]  1.049MB/29.75MB
+ bbbb64c5e42a Download complete 
+ 143fbbb16e50 Downloading [==>                                                ]  1.049MB/22.98MB
+ bbbb64c5e42a Download complete 
+ 143fbbb16e50 Downloading [==>                                                ]  1.049MB/22.98MB
+ cf7e722f8b08 Downloading [=========>                                         ]  9.437MB/47.52MB
+ 0626d3cc316c Downloading [=>                                                 ]  1.049MB/29.75MB
+ 143fbbb16e50 Downloading [==>                                                ]  1.049MB/22.98MB
+ 0626d3cc316c Downloading [===>                                               ]  2.097MB/29.75MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ cf7e722f8b08 Downloading [===========>                                       ]  10.49MB/47.52MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ cf7e722f8b08 Downloading [===========>                                       ]  10.49MB/47.52MB
+ 0626d3cc316c Downloading [===>                                               ]  2.097MB/29.75MB
+ 143fbbb16e50 Downloading [==>                                                ]  1.049MB/22.98MB
+ 0626d3cc316c Downloading [===>                                               ]  2.097MB/29.75MB
+ 143fbbb16e50 Downloading [==>                                                ]  1.049MB/22.98MB
+ cf7e722f8b08 Downloading [===========>                                       ]  10.49MB/47.52MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ 0626d3cc316c Downloading [===>                                               ]  2.097MB/29.75MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ cf7e722f8b08 Downloading [============>                                      ]  11.53MB/47.52MB
+ 143fbbb16e50 Downloading [====>                                              ]  2.097MB/22.98MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ cf7e722f8b08 Downloading [============>                                      ]  11.53MB/47.52MB
+ 0626d3cc316c Downloading [===>                                               ]  2.097MB/29.75MB
+ 143fbbb16e50 Downloading [====>                                              ]  2.097MB/22.98MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ 0626d3cc316c Downloading [===>                                               ]  2.097MB/29.75MB
+ 143fbbb16e50 Downloading [====>                                              ]  2.097MB/22.98MB
+ cf7e722f8b08 Downloading [============>                                      ]  11.53MB/47.52MB
+ 0626d3cc316c Downloading [=====>                                             ]  3.146MB/29.75MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ cf7e722f8b08 Downloading [============>                                      ]  11.53MB/47.52MB
+ 143fbbb16e50 Downloading [====>                                              ]  2.097MB/22.98MB
+ 0626d3cc316c Downloading [=====>                                             ]  3.146MB/29.75MB
+ 143fbbb16e50 Downloading [====>                                              ]  2.097MB/22.98MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ cf7e722f8b08 Downloading [============>                                      ]  11.53MB/47.52MB
+ 143fbbb16e50 Downloading [====>                                              ]  2.097MB/22.98MB
+ cf7e722f8b08 Downloading [============>                                      ]  11.53MB/47.52MB
+ 958cbad593b0 Downloading [===>                                               ]  1.049MB/16.12MB
+ 0626d3cc316c Downloading [=====>                                             ]  3.146MB/29.75MB
+ 143fbbb16e50 Downloading [======>                                            ]  3.146MB/22.98MB
+ 0626d3cc316c Downloading [=======>                                           ]  4.194MB/29.75MB
+ 958cbad593b0 Downloading [======>                                            ]  2.097MB/16.12MB
+ cf7e722f8b08 Downloading [=============>                                     ]  12.58MB/47.52MB
+ 0626d3cc316c Downloading [=======>                                           ]  4.194MB/29.75MB
+ 143fbbb16e50 Downloading [======>                                            ]  3.146MB/22.98MB
+ 958cbad593b0 Downloading [=========>                                         ]  3.146MB/16.12MB
+ cf7e722f8b08 Downloading [=============>                                     ]  12.58MB/47.52MB
+ 958cbad593b0 Downloading [=========>                                         ]  3.146MB/16.12MB
+ 0626d3cc316c Downloading [=======>                                           ]  4.194MB/29.75MB
+ 143fbbb16e50 Downloading [======>                                            ]  3.146MB/22.98MB
+ cf7e722f8b08 Downloading [=============>                                     ]  12.58MB/47.52MB
+ 6ae5766e2414 Downloading [=============>                                     ]  1.049MB/3.969MB
+ 0626d3cc316c Downloading [=======>                                           ]  4.194MB/29.75MB
+ 958cbad593b0 Downloading [=========>                                         ]  3.146MB/16.12MB
+ cf7e722f8b08 Downloading [==============>                                    ]  13.63MB/47.52MB
+ 143fbbb16e50 Downloading [=========>                                         ]  4.194MB/22.98MB
+ 6ae5766e2414 Downloading [=============>                                     ]  1.049MB/3.969MB
+ 958cbad593b0 Downloading [=========>                                         ]  3.146MB/16.12MB
+ cf7e722f8b08 Downloading [==============>                                    ]  13.63MB/47.52MB
+ 0626d3cc316c Downloading [========>                                          ]  5.243MB/29.75MB
+ 143fbbb16e50 Downloading [=========>                                         ]  4.194MB/22.98MB
+ 6ae5766e2414 Downloading [=============>                                     ]  1.049MB/3.969MB
+ 0626d3cc316c Downloading [========>                                          ]  5.243MB/29.75MB
+ 143fbbb16e50 Downloading [=========>                                         ]  4.194MB/22.98MB
+ cf7e722f8b08 Downloading [==============>                                    ]  13.63MB/47.52MB
+ 6ae5766e2414 Downloading [=============>                                     ]  1.049MB/3.969MB
+ 958cbad593b0 Downloading [=========>                                         ]  3.146MB/16.12MB
+ 0626d3cc316c Downloading [========>                                          ]  5.243MB/29.75MB
+ 958cbad593b0 Downloading [=============>                                     ]  4.194MB/16.12MB
+ cf7e722f8b08 Downloading [===============>                                   ]  14.68MB/47.52MB
+ 143fbbb16e50 Downloading [=========>                                         ]  4.194MB/22.98MB
+ 6ae5766e2414 Downloading [==========================>                        ]  2.097MB/3.969MB
+ 958cbad593b0 Downloading [=============>                                     ]  4.194MB/16.12MB
+ cf7e722f8b08 Downloading [===============>                                   ]  14.68MB/47.52MB
+ 0626d3cc316c Downloading [========>                                          ]  5.243MB/29.75MB
+ 143fbbb16e50 Downloading [=========>                                         ]  4.194MB/22.98MB
+ 6ae5766e2414 Downloading [==========================>                        ]  2.097MB/3.969MB
+ 958cbad593b0 Downloading [=============>                                     ]  4.194MB/16.12MB
+ 0626d3cc316c Downloading [========>                                          ]  5.243MB/29.75MB
+ 143fbbb16e50 Downloading [===========>                                       ]  5.243MB/22.98MB
+ cf7e722f8b08 Downloading [===============>                                   ]  14.68MB/47.52MB
+ 6ae5766e2414 Downloading [==========================>                        ]  2.097MB/3.969MB
+ 0626d3cc316c Downloading [==========>                                        ]  6.291MB/29.75MB
+ 958cbad593b0 Downloading [================>                                  ]  5.243MB/16.12MB
+ cf7e722f8b08 Downloading [================>                                  ]  15.73MB/47.52MB
+ 143fbbb16e50 Downloading [===========>                                       ]  5.243MB/22.98MB
+ 6ae5766e2414 Downloading [=======================================>           ]  3.146MB/3.969MB
+ 0626d3cc316c Downloading [==========>                                        ]  6.291MB/29.75MB
+ 143fbbb16e50 Downloading [===========>                                       ]  5.243MB/22.98MB
+ 6ae5766e2414 Downloading [=======================================>           ]  3.146MB/3.969MB
+ 958cbad593b0 Downloading [================>                                  ]  5.243MB/16.12MB
+ cf7e722f8b08 Downloading [================>                                  ]  15.73MB/47.52MB
+ 143fbbb16e50 Downloading [===========>                                       ]  5.243MB/22.98MB
+ cf7e722f8b08 Downloading [================>                                  ]  15.73MB/47.52MB
+ 6ae5766e2414 Downloading [=======================================>           ]  3.146MB/3.969MB
+ 958cbad593b0 Downloading [================>                                  ]  5.243MB/16.12MB
+ 0626d3cc316c Downloading [==========>                                        ]  6.291MB/29.75MB
+ 143fbbb16e50 Downloading [=============>                                     ]  6.291MB/22.98MB
+ 6ae5766e2414 Download complete 
+ 0626d3cc316c Downloading [============>                                      ]   7.34MB/29.75MB
+ 958cbad593b0 Downloading [===================>                               ]  6.291MB/16.12MB
+ cf7e722f8b08 Downloading [=================>                                 ]  16.78MB/47.52MB
+ 6ae5766e2414 Download complete 
+ 958cbad593b0 Downloading [===================>                               ]  6.291MB/16.12MB
+ cf7e722f8b08 Downloading [=================>                                 ]  16.78MB/47.52MB
+ 0626d3cc316c Downloading [============>                                      ]   7.34MB/29.75MB
+ 143fbbb16e50 Downloading [=============>                                     ]  6.291MB/22.98MB
+ 143fbbb16e50 Downloading [=============>                                     ]  6.291MB/22.98MB
+ cf7e722f8b08 Downloading [=================>                                 ]  16.78MB/47.52MB
+ 6ae5766e2414 Download complete 
+ 958cbad593b0 Downloading [===================>                               ]  6.291MB/16.12MB
+ 0626d3cc316c Downloading [============>                                      ]   7.34MB/29.75MB
+ 143fbbb16e50 Downloading [==================>                                ]  8.389MB/22.98MB
+ 0626d3cc316c Downloading [==============>                                    ]  8.389MB/29.75MB
+ 958cbad593b0 Downloading [======================>                            ]   7.34MB/16.12MB
+ cf7e722f8b08 Downloading [==================>                                ]  17.83MB/47.52MB
+ 0626d3cc316c Downloading [==============>                                    ]  8.389MB/29.75MB
+ 143fbbb16e50 Downloading [==================>                                ]  8.389MB/22.98MB
+ 958cbad593b0 Downloading [======================>                            ]   7.34MB/16.12MB
+ cf7e722f8b08 Downloading [==================>                                ]  17.83MB/47.52MB
+ 0626d3cc316c Downloading [==============>                                    ]  8.389MB/29.75MB
+ 143fbbb16e50 Downloading [==================>                                ]  8.389MB/22.98MB
+ cf7e722f8b08 Downloading [==================>                                ]  17.83MB/47.52MB
+ 958cbad593b0 Downloading [======================>                            ]   7.34MB/16.12MB
+ 143fbbb16e50 Downloading [====================>                              ]  9.437MB/22.98MB
+ 0626d3cc316c Downloading [=================>                                 ]  10.49MB/29.75MB
+ 958cbad593b0 Downloading [==========================>                        ]  8.389MB/16.12MB
+ cf7e722f8b08 Downloading [===================>                               ]  18.87MB/47.52MB
+ 958cbad593b0 Downloading [==========================>                        ]  8.389MB/16.12MB
+ cf7e722f8b08 Downloading [===================>                               ]  18.87MB/47.52MB
+ 0626d3cc316c Downloading [=================>                                 ]  10.49MB/29.75MB
+ 143fbbb16e50 Downloading [====================>                              ]  9.437MB/22.98MB
+ 958cbad593b0 Downloading [==========================>                        ]  8.389MB/16.12MB
+ 0626d3cc316c Downloading [=================>                                 ]  10.49MB/29.75MB
+ 143fbbb16e50 Downloading [====================>                              ]  9.437MB/22.98MB
+ cf7e722f8b08 Downloading [===================>                               ]  18.87MB/47.52MB
+ 0626d3cc316c Downloading [===================>                               ]  11.53MB/29.75MB
+ 958cbad593b0 Downloading [=============================>                     ]  9.437MB/16.12MB
+ cf7e722f8b08 Downloading [====================>                              ]  19.92MB/47.52MB
+ 143fbbb16e50 Downloading [======================>                            ]  10.49MB/22.98MB
+ 958cbad593b0 Downloading [================================>                  ]  10.49MB/16.12MB
+ cf7e722f8b08 Downloading [====================>                              ]  19.92MB/47.52MB
+ 0626d3cc316c Downloading [===================>                               ]  11.53MB/29.75MB
+ 143fbbb16e50 Downloading [======================>                            ]  10.49MB/22.98MB
+ 0626d3cc316c Downloading [===================>                               ]  11.53MB/29.75MB
+ 143fbbb16e50 Downloading [======================>                            ]  10.49MB/22.98MB
+ cf7e722f8b08 Downloading [====================>                              ]  19.92MB/47.52MB
+ 958cbad593b0 Downloading [================================>                  ]  10.49MB/16.12MB
+ 0626d3cc316c Downloading [=====================>                             ]  12.58MB/29.75MB
+ 958cbad593b0 Downloading [===================================>               ]  11.53MB/16.12MB
+ cf7e722f8b08 Downloading [=======================>                           ]  22.02MB/47.52MB
+ 143fbbb16e50 Downloading [=========================>                         ]  11.53MB/22.98MB
+ 958cbad593b0 Downloading [===================================>               ]  11.53MB/16.12MB
+ cf7e722f8b08 Downloading [=======================>                           ]  22.02MB/47.52MB
+ 0626d3cc316c Downloading [=====================>                             ]  12.58MB/29.75MB
+ 143fbbb16e50 Downloading [=========================>                         ]  11.53MB/22.98MB
+ 958cbad593b0 Downloading [===================================>               ]  11.53MB/16.12MB
+ 0626d3cc316c Downloading [=====================>                             ]  12.58MB/29.75MB
+ 143fbbb16e50 Downloading [===========================>                       ]  12.58MB/22.98MB
+ cf7e722f8b08 Downloading [=======================>                           ]  22.02MB/47.52MB
+ 0626d3cc316c Downloading [======================>                            ]  13.63MB/29.75MB
+ 958cbad593b0 Downloading [=======================================>           ]  12.58MB/16.12MB
+ cf7e722f8b08 Downloading [========================>                          ]  23.07MB/47.52MB
+ 143fbbb16e50 Downloading [=============================>                     ]  13.63MB/22.98MB
+ 0626d3cc316c Downloading [======================>                            ]  13.63MB/29.75MB
+ 143fbbb16e50 Downloading [=============================>                     ]  13.63MB/22.98MB
+ 958cbad593b0 Downloading [=======================================>           ]  12.58MB/16.12MB
+ cf7e722f8b08 Downloading [========================>                          ]  23.07MB/47.52MB
+ 0626d3cc316c Downloading [========================>                          ]  14.68MB/29.75MB
+ 143fbbb16e50 Downloading [=============================>                     ]  13.63MB/22.98MB
+ cf7e722f8b08 Downloading [========================>                          ]  23.07MB/47.52MB
+ 958cbad593b0 Downloading [=======================================>           ]  12.58MB/16.12MB
+ 143fbbb16e50 Downloading [===============================>                   ]  14.68MB/22.98MB
+ 0626d3cc316c Downloading [==========================>                        ]  15.73MB/29.75MB
+ 958cbad593b0 Downloading [=============================================>     ]  14.68MB/16.12MB
+ cf7e722f8b08 Downloading [==========================>                        ]  25.17MB/47.52MB
+ 0626d3cc316c Downloading [==========================>                        ]  15.73MB/29.75MB
+ 143fbbb16e50 Downloading [===============================>                   ]  14.68MB/22.98MB
+ 958cbad593b0 Downloading [=============================================>     ]  14.68MB/16.12MB
+ cf7e722f8b08 Downloading [==========================>                        ]  25.17MB/47.52MB
+ cf7e722f8b08 Downloading [==========================>                        ]  25.17MB/47.52MB
+ 958cbad593b0 Downloading [=============================================>     ]  14.68MB/16.12MB
+ 0626d3cc316c Downloading [==========================>                        ]  15.73MB/29.75MB
+ 143fbbb16e50 Downloading [===============================>                   ]  14.68MB/22.98MB
+ 143fbbb16e50 Downloading [====================================>              ]  16.78MB/22.98MB
+ 0626d3cc316c Downloading [============================>                      ]  16.78MB/29.75MB
+ cf7e722f8b08 Downloading [===========================>                       ]  26.21MB/47.52MB
+ 143fbbb16e50 Downloading [====================================>              ]  16.78MB/22.98MB
+ cf7e722f8b08 Downloading [===========================>                       ]  26.21MB/47.52MB
+ 0626d3cc316c Downloading [============================>                      ]  16.78MB/29.75MB
+ 958cbad593b0 Download complete 
+ 0626d3cc316c Downloading [=============================>                     ]  17.83MB/29.75MB
+ 143fbbb16e50 Downloading [====================================>              ]  16.78MB/22.98MB
+ cf7e722f8b08 Downloading [===========================>                       ]  26.21MB/47.52MB
+ 143fbbb16e50 Downloading [=========================================>         ]  18.87MB/22.98MB
+ 0626d3cc316c Downloading [===============================>                   ]  18.87MB/29.75MB
+ 958cbad593b0 Download complete 
+ cf7e722f8b08 Downloading [=============================>                     ]  28.31MB/47.52MB
+ 958cbad593b0 Download complete 
+ cf7e722f8b08 Downloading [=============================>                     ]  28.31MB/47.52MB
+ 0626d3cc316c Downloading [===============================>                   ]  18.87MB/29.75MB
+ 143fbbb16e50 Downloading [=========================================>         ]  18.87MB/22.98MB
+ 0626d3cc316c Downloading [=================================>                 ]  19.92MB/29.75MB
+ 143fbbb16e50 Downloading [=========================================>         ]  18.87MB/22.98MB
+ cf7e722f8b08 Downloading [=============================>                     ]  28.31MB/47.52MB
+ 0626d3cc316c Downloading [===================================>               ]  20.97MB/29.75MB
+ cf7e722f8b08 Downloading [===============================>                   ]  30.41MB/47.52MB
+ 143fbbb16e50 Downloading [=============================================>     ]  20.97MB/22.98MB
+ cf7e722f8b08 Downloading [===============================>                   ]  30.41MB/47.52MB
+ 0626d3cc316c Downloading [===================================>               ]  20.97MB/29.75MB
+ 143fbbb16e50 Downloading [=============================================>     ]  20.97MB/22.98MB
+ 143fbbb16e50 Downloading [=============================================>     ]  20.97MB/22.98MB
+ cf7e722f8b08 Downloading [===============================>                   ]  30.41MB/47.52MB
+ 0626d3cc316c Downloading [=====================================>             ]  22.02MB/29.75MB
+ 143fbbb16e50 Downloading [==================================================>]  22.98MB/22.98MB
+ 0626d3cc316c Downloading [======================================>            ]  23.07MB/29.75MB
+ cf7e722f8b08 Downloading [==================================>                ]  32.51MB/47.52MB
+ cf7e722f8b08 Downloading [==================================>                ]  32.51MB/47.52MB
+ 0626d3cc316c Downloading [======================================>            ]  23.07MB/29.75MB
+ 143fbbb16e50 Downloading [==================================================>]  22.98MB/22.98MB
+ cf7e722f8b08 Downloading [==================================>                ]  32.51MB/47.52MB
+ 0626d3cc316c Downloading [========================================>          ]  24.12MB/29.75MB
+ 143fbbb16e50 Downloading [==================================================>]  22.98MB/22.98MB
+ 0626d3cc316c Downloading [============================================>      ]  26.21MB/29.75MB
+ cf7e722f8b08 Downloading [=====================================>             ]  35.65MB/47.52MB
+ 143fbbb16e50 Download complete 
+ cf7e722f8b08 Downloading [=====================================>             ]  35.65MB/47.52MB
+ 0626d3cc316c Downloading [============================================>      ]  26.21MB/29.75MB
+ 143fbbb16e50 Download complete 
+ 143fbbb16e50 Download complete 
+ cf7e722f8b08 Downloading [=====================================>             ]  35.65MB/47.52MB
+ 0626d3cc316c Downloading [============================================>      ]  26.21MB/29.75MB
+ 0626d3cc316c Downloading [=================================================> ]  29.36MB/29.75MB
+ cf7e722f8b08 Downloading [=======================================>           ]  37.75MB/47.52MB
+ 0626d3cc316c Downloading [=================================================> ]  29.36MB/29.75MB
+ cf7e722f8b08 Downloading [=======================================>           ]  37.75MB/47.52MB
+ cf7e722f8b08 Downloading [=======================================>           ]  37.75MB/47.52MB
+ 0626d3cc316c Downloading [=================================================> ]  29.36MB/29.75MB
+ 0626d3cc316c Download complete 
+ cf7e722f8b08 Downloading [========================================>          ]   38.8MB/47.52MB
+ cf7e722f8b08 Downloading [========================================>          ]   38.8MB/47.52MB
+ 0626d3cc316c Download complete 
+ cf7e722f8b08 Downloading [=========================================>         ]  39.85MB/47.52MB
+ 0626d3cc316c Download complete 
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ cf7e722f8b08 Downloading [===========================================>       ]  40.89MB/47.52MB
+ cf7e722f8b08 Downloading [===========================================>       ]  40.89MB/47.52MB
+ cf7e722f8b08 Downloading [===========================================>       ]  40.89MB/47.52MB
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ cf7e722f8b08 Downloading [=============================================>     ]  42.99MB/47.52MB
+ cf7e722f8b08 Downloading [=============================================>     ]  42.99MB/47.52MB
+ cf7e722f8b08 Downloading [==============================================>    ]  44.04MB/47.52MB
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ cf7e722f8b08 Downloading [================================================>  ]  46.14MB/47.52MB
+ cf7e722f8b08 Downloading [================================================>  ]  46.14MB/47.52MB
+ cf7e722f8b08 Downloading [=================================================> ]  47.19MB/47.52MB
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ cf7e722f8b08 Download complete 
+ cf7e722f8b08 Download complete 
+ cf7e722f8b08 Download complete 
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 0626d3cc316c Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 0626d3cc316c Pull complete 
+ 0626d3cc316c Pull complete 
+ 958cbad593b0 Extracting 1 s
+ 0626d3cc316c Pull complete 
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Extracting 1 s
+ 958cbad593b0 Pull complete 
+ 958cbad593b0 Pull complete 
+ cf7e722f8b08 Extracting 1 s
+ 958cbad593b0 Pull complete 
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Extracting 1 s
+ cf7e722f8b08 Pull complete 
+ cf7e722f8b08 Pull complete 
+ 8b667949b7bc Pull complete 
+ 3e5f8366d58f Extracting 1 s
+ 69c4feeb20a6 Pull complete 
+ 8b667949b7bc Pull complete 
+ 69c4feeb20a6 Pull complete 
+ 69c4feeb20a6 Pull complete 
+ 3e5f8366d58f Pull complete 
+ 8b667949b7bc Pull complete 
+ cf7e722f8b08 Pull complete 
+ 3e5f8366d58f Pull complete 
+ 3e5f8366d58f Pull complete 
+ bbbb64c5e42a Pull complete 
+ 143fbbb16e50 Extracting 1 s
+ bbbb64c5e42a Pull complete 
+ bbbb64c5e42a Pull complete 
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 143fbbb16e50 Extracting 1 s
+ 4f4fb700ef54 Pull complete 
+ dbf6b9a60035 Pull complete 
+ 4f4fb700ef54 Pull complete 
+ 143fbbb16e50 Pull complete 
+ 4f4fb700ef54 Pull complete 
+ dbf6b9a60035 Pull complete 
+ dbf6b9a60035 Pull complete 
+ 143fbbb16e50 Pull complete 
+ 143fbbb16e50 Pull complete 
+ zk2 Pulled 
+ zk3 Pulled 
+ zk1 Pulled 
+ Network lab4-zookeeper_default  Creating
+ Network lab4-zookeeper_default  Created
+ Volume lab4-zookeeper_zk3-log  Creating
+ Volume lab4-zookeeper_zk3-log  Created
+ Volume lab4-zookeeper_zk1-data  Creating
+ Volume lab4-zookeeper_zk1-data  Created
+ Volume lab4-zookeeper_zk1-log  Creating
+ Volume lab4-zookeeper_zk1-log  Created
+ Volume lab4-zookeeper_zk2-data  Creating
+ Volume lab4-zookeeper_zk2-data  Created
+ Volume lab4-zookeeper_zk2-log  Creating
+ Volume lab4-zookeeper_zk2-log  Created
+ Volume lab4-zookeeper_zk3-data  Creating
+ Volume lab4-zookeeper_zk3-data  Created
+ Container lab4-zookeeper-zk1-1  Creating
+ Container lab4-zookeeper-zk3-1  Creating
+ Container lab4-zookeeper-zk2-1  Creating
+ Container lab4-zookeeper-zk2-1  Created
+ Container lab4-zookeeper-zk1-1  Created
+ Container lab4-zookeeper-zk3-1  Created
+ Container lab4-zookeeper-zk2-1  Starting
+ Container lab4-zookeeper-zk3-1  Starting
+ Container lab4-zookeeper-zk1-1  Starting
+ Container lab4-zookeeper-zk2-1  Started
+ Container lab4-zookeeper-zk3-1  Started
+ Container lab4-zookeeper-zk1-1  Started
+ Container lab4-zookeeper-zk2-1  Waiting
+ Container lab4-zookeeper-zk3-1  Waiting
+ Container lab4-zookeeper-zk1-1  Waiting
+ Container lab4-zookeeper-zk3-1  Healthy
+ Container lab4-zookeeper-zk1-1  Healthy
+ Container lab4-zookeeper-zk2-1  Healthy
+
+$ docker compose exec -T zk1 cat /data/myid
+1
+
+$ docker compose exec -T zk2 cat /data/myid
+2
+
+$ docker compose exec -T zk3 cat /data/myid
+3
+
+$ docker compose exec -T zk1 java -version
+openjdk version "17.0.20.1" 2026-08-18
+OpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)
+OpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)
+
+$ docker compose images
+CONTAINER              REPOSITORY          TAG                 PLATFORM            IMAGE ID            SIZE                CREATED
+lab4-zookeeper-zk1-1   zookeeper           3.9.6-jre-17        linux/amd64         17d9b6af91d9        118MB               11 seconds ago
+lab4-zookeeper-zk2-1   zookeeper           3.9.6-jre-17        linux/amd64         17d9b6af91d9        118MB               11 seconds ago
+lab4-zookeeper-zk3-1   zookeeper           3.9.6-jre-17        linux/amd64         17d9b6af91d9        118MB               11 seconds ago
+
+$ docker compose stop zk1
+ Container lab4-zookeeper-zk1-1  Stopping
+ Container lab4-zookeeper-zk1-1  Stopped
+
+$ docker compose stop zk2
+ Container lab4-zookeeper-zk2-1  Stopping
+ Container lab4-zookeeper-zk2-1  Stopped
+
+$ docker compose ps -a
+NAME                   IMAGE                    COMMAND                  SERVICE   CREATED          STATUS                       PORTS
+lab4-zookeeper-zk1-1   zookeeper:3.9.6-jre-17   "/docker-entrypoint.…"   zk1       22 seconds ago   Exited (143) 8 seconds ago   
+lab4-zookeeper-zk2-1   zookeeper:3.9.6-jre-17   "/docker-entrypoint.…"   zk2       22 seconds ago   Exited (143) 7 seconds ago   
+lab4-zookeeper-zk3-1   zookeeper:3.9.6-jre-17   "/docker-entrypoint.…"   zk3       22 seconds ago   Up 17 seconds (healthy)      127.0.0.1:2183->2181/tcp
+
+$ docker compose start zk1 zk2
+ Container lab4-zookeeper-zk2-1  Starting
+ Container lab4-zookeeper-zk1-1  Starting
+ Container lab4-zookeeper-zk2-1  Started
+ Container lab4-zookeeper-zk1-1  Started
+
+$ docker compose start zk1 zk2 zk3
+
+$ docker compose logs --no-color --tail 150 zk1
+zk1-1  | 2026-10-30 10:20:57,669 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+zk1-1  | 2026-10-30 10:20:57,669 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+zk1-1  | 2026-10-30 10:20:57,669 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+zk1-1  | 2026-10-30 10:20:57,669 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+zk1-1  | 2026-10-30 10:20:57,675 [myid:1] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+zk1-1  | 2026-10-30 10:20:57,675 [myid:1] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 1
+zk1-1  | 2026-10-30 10:20:57,676 [myid:] - INFO  [PurgeTask:o.a.z.s.DatadirCleanupManager$PurgeTask@139] - Purge task started.
+zk1-1  | 2026-10-30 10:20:57,677 [myid:1] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+zk1-1  | 2026-10-30 10:20:57,677 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeerMain@152] - Starting quorum peer, myid=1
+zk1-1  | 2026-10-30 10:20:57,677 [myid:] - INFO  [PurgeTask:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+zk1-1  | 2026-10-30 10:20:57,681 [myid:] - INFO  [PurgeTask:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+zk1-1  | 2026-10-30 10:20:57,681 [myid:] - INFO  [PurgeTask:o.a.z.s.DatadirCleanupManager$PurgeTask@145] - Purge task completed.
+zk1-1  | 2026-10-30 10:20:57,682 [myid:1] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@37f1104d
+zk1-1  | 2026-10-30 10:20:57,684 [myid:1] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+zk1-1  | 2026-10-30 10:20:57,684 [myid:1] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+zk1-1  | 2026-10-30 10:20:57,686 [myid:1] - INFO  [main:o.a.z.s.ServerCnxnFactory@172] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+zk1-1  | 2026-10-30 10:20:57,686 [myid:1] - WARN  [main:o.a.z.s.ServerCnxnFactory@337] - maxCnxns is not configured, using default value 0.
+zk1-1  | 2026-10-30 10:20:57,687 [myid:1] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 4 selector thread(s), 64 worker threads, and 64 kB direct buffers.
+zk1-1  | 2026-10-30 10:20:57,690 [myid:1] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2181
+zk1-1  | 2026-10-30 10:20:57,693 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@801] - zookeeper.quorumCnxnTimeoutMs=-1
+zk1-1  | 2026-10-30 10:20:57,694 [myid:1] - INFO  [main:o.a.z.c.X509Util@84] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1786] - Local sessions disabled
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1797] - Local session upgrading disabled
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1764] - tickTime set to 2000
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1808] - minSessionTimeout set to 4000
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1819] - maxSessionTimeout set to 20000
+zk1-1  | 2026-10-30 10:20:57,695 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@1844] - initLimit set to 10
+zk1-1  | 2026-10-30 10:20:57,696 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2031] - syncLimit set to 5
+zk1-1  | 2026-10-30 10:20:57,696 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2046] - connectToLearnerMasterLimit set to 0
+zk1-1  | 2026-10-30 10:20:57,699 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+zk1-1  | 2026-10-30 10:20:57,700 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+zk1-1  | 2026-10-30 10:20:57,701 [myid:1] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk1-1  | 2026-10-30 10:20:57,701 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+zk1-1  | 2026-10-30 10:20:57,701 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=zk1
+zk1-1  | 2026-10-30 10:20:57,701 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17.0.20.1
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Eclipse Adoptium
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/opt/java/openjdk
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.9.6-bin/bin/../build/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-prometheus-metrics-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-jute-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/slf4j-api-2.0.13.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-epoll-4.1.137.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-classes-epoll-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-classes-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-windows-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-resolver-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-handler-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-codec-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-buffer-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-core-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-classic-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jline-3.30.14-jdk8.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-ajax-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-servlet-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-server-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-security-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-io-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-http-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-databind-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-core-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-annotations-2.22.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-io-2.17.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/conf:
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=amd64
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=6.6.87.2-microsoft-standard-WSL2
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=zookeeper
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/home/zookeeper
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.9.6-bin
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=45MB
+zk1-1  | 2026-10-30 10:20:57,702 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=128MB
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=66MB
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@151] - zookeeper.enableEagerACLCheck = false
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@164] - zookeeper.digest.enabled = true
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@168] - zookeeper.closeSessionTxn.enabled = true
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@2247] - zookeeper.serializeLastProcessedZxid.enabled = true
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@1585] - zookeeper.flushDelay = 0 ms
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.maxWriteQueuePollTime = 0 ms
+zk1-1  | 2026-10-30 10:20:57,703 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxBatchSize=1000
+zk1-1  | 2026-10-30 10:20:57,704 [myid:1] - INFO  [main:o.a.z.s.ZooKeeperServer@289] - zookeeper.intBufferStartingSizeBytes = 1024
+zk1-1  | 2026-10-30 10:20:57,705 [myid:1] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk1-1  | 2026-10-30 10:20:57,705 [myid:1] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk1-1  | 2026-10-30 10:20:57,706 [myid:1] - INFO  [main:o.a.z.s.ZKDatabase@137] - zookeeper.snapshotSizeFactor = 0.33
+zk1-1  | 2026-10-30 10:20:57,706 [myid:1] - INFO  [main:o.a.z.s.ZKDatabase@157] - zookeeper.commitLogCount=500
+zk1-1  | 2026-10-30 10:20:57,709 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2110] - Using insecure (non-TLS) quorum communication
+zk1-1  | 2026-10-30 10:20:57,709 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2116] - Port unification disabled
+zk1-1  | 2026-10-30 10:20:57,709 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@184] - multiAddress.enabled set to false
+zk1-1  | 2026-10-30 10:20:57,710 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@209] - multiAddress.reachabilityCheckEnabled set to true
+zk1-1  | 2026-10-30 10:20:57,710 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@196] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+zk1-1  | 2026-10-30 10:20:57,710 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2578] - QuorumPeer communication is not secured! (SASL auth disabled)
+zk1-1  | 2026-10-30 10:20:57,710 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2603] - quorum.cnxn.threads.size set to 20
+zk1-1  | 2026-10-30 10:20:57,710 [myid:1] - INFO  [main:o.a.z.s.p.FileSnap@86] - Reading snapshot /data/version-2/snapshot.0
+zk1-1  | 2026-10-30 10:20:57,711 [myid:1] - INFO  [main:o.a.z.s.DataTree@1719] - The digest value is empty in snapshot
+zk1-1  | 2026-10-30 10:20:57,716 [myid:1] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@372] - 6 txns loaded in 2 ms
+zk1-1  | 2026-10-30 10:20:57,716 [myid:1] - INFO  [main:o.a.z.s.ZKDatabase@294] - Snapshot loaded in 6 ms, highest zxid is 0x100000006, digest is 9705227193
+zk1-1  | 2026-10-30 10:20:57,719 [myid:1] - INFO  [main:o.a.z.s.q.QuorumPeer@2620] - Using 10000ms as the quorum cnxn socket timeout
+zk1-1  | 2026-10-30 10:20:57,722 [myid:1] - INFO  [main:o.a.z.s.q.QuorumCnxManager$Listener@921] - Election port bind maximum retries is 3
+zk1-1  | 2026-10-30 10:20:57,723 [myid:1] - INFO  [main:o.a.z.s.q.FastLeaderElection@90] - zookeeper.fastleader.minNotificationInterval = 200 ms
+zk1-1  | 2026-10-30 10:20:57,723 [myid:1] - INFO  [main:o.a.z.s.q.FastLeaderElection@92] - zookeeper.fastleader.maxNotificationInterval = 60000 ms
+zk1-1  | 2026-10-30 10:20:57,729 [myid:] - INFO  [ListenerHandler-zk1/172.26.0.4:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1068] - 1 is accepting connections now, my election bind port: zk1/172.26.0.4:3888
+zk1-1  | 2026-10-30 10:20:57,729 [myid:1] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+zk1-1  | 2026-10-30 10:20:57,733 [myid:] - INFO  [ListenerHandler-zk1/172.26.0.4:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.26.0.2:44924
+zk1-1  | 2026-10-30 10:20:57,734 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+zk1-1  | 2026-10-30 10:20:57,734 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@947] - New election. My id = 1, proposed zxid=0x100000006
+zk1-1  | 2026-10-30 10:20:57,735 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x1, n.zxid:0x100000006, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-10-30 10:20:57,738 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-10-30 10:20:57,738 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-10-30 10:20:57,739 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-10-30 10:20:57,739 [myid:] - INFO  [QuorumConnectionThread-[myid=1]-1:o.a.z.s.q.QuorumCnxManager@511] - Have smaller server identifier, so dropping the connection: (myId:1 --> sid:3)
+zk1-1  | 2026-10-30 10:20:57,739 [myid:] - INFO  [ListenerHandler-zk1/172.26.0.4:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.26.0.3:37978
+zk1-1  | 2026-10-30 10:20:57,741 [myid:] - INFO  [WorkerReceiver[myid=1]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk1-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: following
+zk1-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1553] - FOLLOWING
+zk1-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@134] - leaderConnectDelayDuringRetryMs: 100
+zk1-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@135] - TCP NoDelay set to: true
+zk1-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@136] - zookeeper.learner.asyncSending = false
+zk1-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@137] - zookeeper.learner.closeSocketAsync = false
+zk1-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+zk1-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+zk1-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+zk1-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+zk1-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 20000 ms
+zk1-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getData response cache size is initialized with value 400.
+zk1-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getChildren response cache size is initialized with value 400.
+zk1-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+zk1-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+zk1-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@387] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 20000 ms clientPortListenBacklog -1 dataLogdir /datalog/version-2 snapdir /data/version-2
+zk1-1  | 2026-10-30 10:20:57,948 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@76] - FOLLOWING - LEADER ELECTION TOOK - 214 MS
+zk1-1  | 2026-10-30 10:20:57,951 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - discovery
+zk1-1  | 2026-10-30 10:20:57,953 [myid:] - INFO  [LeaderConnector-zk3/172.26.0.3:2888:o.a.z.s.q.Learner$LeaderConnector@384] - Successfully connected to leader, using address: zk3/172.26.0.3:2888
+zk1-1  | 2026-10-30 10:20:57,967 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - synchronization
+zk1-1  | 2026-10-30 10:20:57,967 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@587] - Getting a diff from the leader 0x100000009
+zk1-1  | 2026-10-30 10:20:57,967 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization - diff
+zk1-1  | 2026-10-30 10:20:57,969 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@544] - DIFF sync got first proposal 0x100000007
+zk1-1  | 2026-10-30 10:20:57,970 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@748] - Learner received NEWLEADER message
+zk1-1  | 2026-10-30 10:20:57,970 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1914] - Dynamic reconfig is disabled, we don't store the last seen config.
+zk1-1  | 2026-10-30 10:20:57,971 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.p.FileTxnLog@291] - Creating new log file: log.100000007
+zk1-1  | 2026-10-30 10:20:57,971 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x3000001655b0000
+zk1-1  | 2026-10-30 10:20:57,977 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@805] - It took 7ms to persist and commit txns in packetsCommitted. 0 outstanding txns left in packetsNotLogged
+zk1-1  | 2026-10-30 10:20:57,981 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@814] - Set the current epoch to 2
+zk1-1  | 2026-10-30 10:20:57,981 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization
+zk1-1  | 2026-10-30 10:20:57,981 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@820] - Sent NEWLEADER ack to leader with zxid 200000000
+zk1-1  | 2026-10-30 10:20:57,982 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@732] - Learner received UPTODATE message
+zk1-1  | 2026-10-30 10:20:57,983 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@490] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+zk1-1  | 2026-10-30 10:20:57,983 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@451] - Configuring CommitProcessor with 32 worker threads.
+zk1-1  | 2026-10-30 10:20:57,984 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FollowerRequestProcessor@59] - Initialized FollowerRequestProcessor with zookeeper.follower.skipLearnerRequestToNextProcessor as false
+zk1-1  | 2026-10-30 10:20:57,985 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+zk1-1  | 2026-10-30 10:20:57,992 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@843] - 0 txns have been logged asynchronously
+zk1-1  | 2026-10-30 10:20:57,992 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@848] - 0 txns have been committed
+zk1-1  | 2026-10-30 10:20:57,993 [myid:] - INFO  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - broadcast
+zk1-1  | 2026-10-30 10:20:58,176 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+zk1-1  | 2026-10-30 10:20:58,176 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, ruok, mntr, srvr]]
+zk1-1  | 2026-10-30 10:20:58,176 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /172.26.0.1:37336
+zk1-1  | 2026-10-30 10:20:58,223 [myid:] - WARN  [QuorumPeer[myid=1](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@167] - Got zxid 0x200000001 expected 0x1
+zk1-1  | 2026-10-30 10:20:58,230 [myid:] - INFO  [CommitProcessor:1:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x1000001ab170000
+zk1-1  | 2026-10-30 10:20:58,246 [myid:] - INFO  [RequestThrottler:o.a.z.s.q.QuorumZooKeeperServer@156] - Submitting global closeSession request for session 0x1000001ab170000
+zk1-1  | 2026-10-30 10:20:58,257 [myid:] - INFO  [CommitProcessor:1:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x3000001ab1d0000
+zk1-1  | 2026-10-30 10:20:58,634 [myid:] - INFO  [CommitProcessor:1:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x2000001ab150000
+
+$ docker compose logs --no-color --tail 150 zk2
+zk2-1  | 2026-10-30 10:20:57,669 [myid:] - INFO  [PurgeTask:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+zk2-1  | 2026-10-30 10:20:57,670 [myid:] - INFO  [PurgeTask:o.a.z.s.DatadirCleanupManager$PurgeTask@145] - Purge task completed.
+zk2-1  | 2026-10-30 10:20:57,670 [myid:2] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@37f1104d
+zk2-1  | 2026-10-30 10:20:57,672 [myid:2] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+zk2-1  | 2026-10-30 10:20:57,672 [myid:2] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+zk2-1  | 2026-10-30 10:20:57,675 [myid:2] - INFO  [main:o.a.z.s.ServerCnxnFactory@172] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+zk2-1  | 2026-10-30 10:20:57,675 [myid:2] - WARN  [main:o.a.z.s.ServerCnxnFactory@337] - maxCnxns is not configured, using default value 0.
+zk2-1  | 2026-10-30 10:20:57,676 [myid:2] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 4 selector thread(s), 64 worker threads, and 64 kB direct buffers.
+zk2-1  | 2026-10-30 10:20:57,679 [myid:2] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2181
+zk2-1  | 2026-10-30 10:20:57,682 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@801] - zookeeper.quorumCnxnTimeoutMs=-1
+zk2-1  | 2026-10-30 10:20:57,684 [myid:2] - INFO  [main:o.a.z.c.X509Util@84] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+zk2-1  | 2026-10-30 10:20:57,685 [myid:2] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+zk2-1  | 2026-10-30 10:20:57,685 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1786] - Local sessions disabled
+zk2-1  | 2026-10-30 10:20:57,685 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1797] - Local session upgrading disabled
+zk2-1  | 2026-10-30 10:20:57,685 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1764] - tickTime set to 2000
+zk2-1  | 2026-10-30 10:20:57,686 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1808] - minSessionTimeout set to 4000
+zk2-1  | 2026-10-30 10:20:57,686 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1819] - maxSessionTimeout set to 20000
+zk2-1  | 2026-10-30 10:20:57,686 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@1844] - initLimit set to 10
+zk2-1  | 2026-10-30 10:20:57,686 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2031] - syncLimit set to 5
+zk2-1  | 2026-10-30 10:20:57,686 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2046] - connectToLearnerMasterLimit set to 0
+zk2-1  | 2026-10-30 10:20:57,690 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+zk2-1  | 2026-10-30 10:20:57,691 [myid:2] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=zk2
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17.0.20.1
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Eclipse Adoptium
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/opt/java/openjdk
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/classes:/apache-zookeeper-3.9.6-bin/bin/../build/classes:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/target/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../build/lib/*.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-prometheus-metrics-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-jute-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/zookeeper-3.9.6.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/snappy-java-1.1.10.5.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/slf4j-api-2.0.13.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_servlet-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_hotspot-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient_common-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/simpleclient-0.9.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-native-epoll-4.1.137.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-classes-epoll-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-transport-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-classes-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-windows-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-aarch_64.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-tcnative-boringssl-static-2.0.81.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-resolver-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-handler-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-common-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-codec-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/netty-buffer-4.1.137.Final.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/metrics-core-4.1.12.1.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-core-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/logback-classic-1.3.15.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jline-3.30.14-jdk8.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-ajax-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-util-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-servlet-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-server-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-security-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-io-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jetty-http-9.4.58.v20250814.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-databind-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-core-2.22.2.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/jackson-annotations-2.22.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-io-2.17.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/commons-cli-1.5.0.jar:/apache-zookeeper-3.9.6-bin/bin/../lib/audience-annotations-0.12.0.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-*.jar:/apache-zookeeper-3.9.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/conf:
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+zk2-1  | 2026-10-30 10:20:57,692 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=amd64
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=6.6.87.2-microsoft-standard-WSL2
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=zookeeper
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/home/zookeeper
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/apache-zookeeper-3.9.6-bin
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=45MB
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=128MB
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=66MB
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@151] - zookeeper.enableEagerACLCheck = false
+zk2-1  | 2026-10-30 10:20:57,693 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@164] - zookeeper.digest.enabled = true
+zk2-1  | 2026-10-30 10:20:57,694 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@168] - zookeeper.closeSessionTxn.enabled = true
+zk2-1  | 2026-10-30 10:20:57,694 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@2247] - zookeeper.serializeLastProcessedZxid.enabled = true
+zk2-1  | 2026-10-30 10:20:57,694 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@1585] - zookeeper.flushDelay = 0 ms
+zk2-1  | 2026-10-30 10:20:57,694 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.maxWriteQueuePollTime = 0 ms
+zk2-1  | 2026-10-30 10:20:57,694 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxBatchSize=1000
+zk2-1  | 2026-10-30 10:20:57,694 [myid:2] - INFO  [main:o.a.z.s.ZooKeeperServer@289] - zookeeper.intBufferStartingSizeBytes = 1024
+zk2-1  | 2026-10-30 10:20:57,696 [myid:2] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk2-1  | 2026-10-30 10:20:57,696 [myid:2] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+zk2-1  | 2026-10-30 10:20:57,696 [myid:2] - INFO  [main:o.a.z.s.ZKDatabase@137] - zookeeper.snapshotSizeFactor = 0.33
+zk2-1  | 2026-10-30 10:20:57,696 [myid:2] - INFO  [main:o.a.z.s.ZKDatabase@157] - zookeeper.commitLogCount=500
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2110] - Using insecure (non-TLS) quorum communication
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2116] - Port unification disabled
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@184] - multiAddress.enabled set to false
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@209] - multiAddress.reachabilityCheckEnabled set to true
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@196] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2578] - QuorumPeer communication is not secured! (SASL auth disabled)
+zk2-1  | 2026-10-30 10:20:57,700 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2603] - quorum.cnxn.threads.size set to 20
+zk2-1  | 2026-10-30 10:20:57,701 [myid:2] - INFO  [main:o.a.z.s.p.FileSnap@86] - Reading snapshot /data/version-2/snapshot.0
+zk2-1  | 2026-10-30 10:20:57,702 [myid:2] - INFO  [main:o.a.z.s.DataTree@1719] - The digest value is empty in snapshot
+zk2-1  | 2026-10-30 10:20:57,707 [myid:2] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@372] - 9 txns loaded in 2 ms
+zk2-1  | 2026-10-30 10:20:57,707 [myid:2] - INFO  [main:o.a.z.s.ZKDatabase@294] - Snapshot loaded in 7 ms, highest zxid is 0x100000009, digest is 11295088838
+zk2-1  | 2026-10-30 10:20:57,709 [myid:2] - INFO  [main:o.a.z.s.q.QuorumPeer@2620] - Using 10000ms as the quorum cnxn socket timeout
+zk2-1  | 2026-10-30 10:20:57,712 [myid:2] - INFO  [main:o.a.z.s.q.QuorumCnxManager$Listener@921] - Election port bind maximum retries is 3
+zk2-1  | 2026-10-30 10:20:57,713 [myid:2] - INFO  [main:o.a.z.s.q.FastLeaderElection@90] - zookeeper.fastleader.minNotificationInterval = 200 ms
+zk2-1  | 2026-10-30 10:20:57,713 [myid:2] - INFO  [main:o.a.z.s.q.FastLeaderElection@92] - zookeeper.fastleader.maxNotificationInterval = 60000 ms
+zk2-1  | 2026-10-30 10:20:57,719 [myid:2] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+zk2-1  | 2026-10-30 10:20:57,719 [myid:] - INFO  [ListenerHandler-zk2/172.26.0.2:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1068] - 2 is accepting connections now, my election bind port: zk2/172.26.0.2:3888
+zk2-1  | 2026-10-30 10:20:57,723 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+zk2-1  | 2026-10-30 10:20:57,724 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@947] - New election. My id = 2, proposed zxid=0x100000009
+zk2-1  | 2026-10-30 10:20:57,728 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-10-30 10:20:57,729 [myid:] - INFO  [QuorumConnectionThread-[myid=2]-2:o.a.z.s.q.QuorumCnxManager@511] - Have smaller server identifier, so dropping the connection: (myId:2 --> sid:3)
+zk2-1  | 2026-10-30 10:20:57,730 [myid:] - INFO  [ListenerHandler-zk2/172.26.0.2:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.26.0.3:36336
+zk2-1  | 2026-10-30 10:20:57,728 [myid:] - WARN  [QuorumConnectionThread-[myid=2]-1:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 1 at election address zk1/172.26.0.4:3888
+zk2-1  | java.net.ConnectException: Connection refused
+zk2-1  | 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk2-1  | 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk2-1  | 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk2-1  | 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk2-1  | 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk2-1  | 	at java.base/java.net.Socket.connect(Unknown Source)
+zk2-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk2-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk2-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk2-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk2-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk2-1  | 2026-10-30 10:20:57,732 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-10-30 10:20:57,733 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-10-30 10:20:57,734 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-10-30 10:20:57,736 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x1, n.zxid:0x100000006, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-10-30 10:20:57,739 [myid:] - INFO  [WorkerReceiver[myid=2]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk2-1  | 2026-10-30 10:20:57,940 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: following
+zk2-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1553] - FOLLOWING
+zk2-1  | 2026-10-30 10:20:57,943 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@134] - leaderConnectDelayDuringRetryMs: 100
+zk2-1  | 2026-10-30 10:20:57,943 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@135] - TCP NoDelay set to: true
+zk2-1  | 2026-10-30 10:20:57,943 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@136] - zookeeper.learner.asyncSending = false
+zk2-1  | 2026-10-30 10:20:57,943 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@137] - zookeeper.learner.closeSocketAsync = false
+zk2-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+zk2-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+zk2-1  | 2026-10-30 10:20:57,944 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+zk2-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+zk2-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 20000 ms
+zk2-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getData response cache size is initialized with value 400.
+zk2-1  | 2026-10-30 10:20:57,945 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getChildren response cache size is initialized with value 400.
+zk2-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+zk2-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+zk2-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+zk2-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+zk2-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+zk2-1  | 2026-10-30 10:20:57,946 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+zk2-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+zk2-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+zk2-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@387] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 20000 ms clientPortListenBacklog -1 dataLogdir /datalog/version-2 snapdir /data/version-2
+zk2-1  | 2026-10-30 10:20:57,947 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@76] - FOLLOWING - LEADER ELECTION TOOK - 223 MS
+zk2-1  | 2026-10-30 10:20:57,950 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - discovery
+zk2-1  | 2026-10-30 10:20:57,952 [myid:] - INFO  [LeaderConnector-zk3/172.26.0.3:2888:o.a.z.s.q.Learner$LeaderConnector@384] - Successfully connected to leader, using address: zk3/172.26.0.3:2888
+zk2-1  | 2026-10-30 10:20:57,963 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - synchronization
+zk2-1  | 2026-10-30 10:20:57,964 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@587] - Getting a diff from the leader 0x100000009
+zk2-1  | 2026-10-30 10:20:57,964 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization - diff
+zk2-1  | 2026-10-30 10:20:57,966 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@748] - Learner received NEWLEADER message
+zk2-1  | 2026-10-30 10:20:57,967 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1914] - Dynamic reconfig is disabled, we don't store the last seen config.
+zk2-1  | 2026-10-30 10:20:57,974 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@814] - Set the current epoch to 2
+zk2-1  | 2026-10-30 10:20:57,974 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization
+zk2-1  | 2026-10-30 10:20:57,974 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@820] - Sent NEWLEADER ack to leader with zxid 200000000
+zk2-1  | 2026-10-30 10:20:57,976 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@732] - Learner received UPTODATE message
+zk2-1  | 2026-10-30 10:20:57,978 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@490] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+zk2-1  | 2026-10-30 10:20:57,978 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@451] - Configuring CommitProcessor with 32 worker threads.
+zk2-1  | 2026-10-30 10:20:57,978 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FollowerRequestProcessor@59] - Initialized FollowerRequestProcessor with zookeeper.follower.skipLearnerRequestToNextProcessor as false
+zk2-1  | 2026-10-30 10:20:57,979 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+zk2-1  | 2026-10-30 10:20:57,988 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@843] - 0 txns have been logged asynchronously
+zk2-1  | 2026-10-30 10:20:57,988 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Learner@848] - 0 txns have been committed
+zk2-1  | 2026-10-30 10:20:57,988 [myid:] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - broadcast
+zk2-1  | 2026-10-30 10:20:58,190 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+zk2-1  | 2026-10-30 10:20:58,191 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.c.FourLetterCommands@224] - The list of enabled four letter word commands is : [[stat, ruok, mntr, srvr]]
+zk2-1  | 2026-10-30 10:20:58,191 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /172.26.0.1:38292
+zk2-1  | 2026-10-30 10:20:58,223 [myid:] - WARN  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Follower@167] - Got zxid 0x200000001 expected 0x1
+zk2-1  | 2026-10-30 10:20:58,224 [myid:] - INFO  [SyncThread:2:o.a.z.s.p.FileTxnLog@291] - Creating new log file: log.200000001
+zk2-1  | 2026-10-30 10:20:58,230 [myid:] - INFO  [CommitProcessor:2:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x1000001ab170000
+zk2-1  | 2026-10-30 10:20:58,257 [myid:] - INFO  [CommitProcessor:2:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x3000001ab1d0000
+zk2-1  | 2026-10-30 10:20:58,634 [myid:] - INFO  [CommitProcessor:2:o.a.z.s.q.LearnerSessionTracker@116] - Committing global session 0x2000001ab150000
+zk2-1  | 2026-10-30 10:20:58,773 [myid:] - INFO  [RequestThrottler:o.a.z.s.q.QuorumZooKeeperServer@156] - Submitting global closeSession request for session 0x2000001ab150000
+
+$ docker compose logs --no-color --tail 150 zk3
+zk3-1  | 	at java.base/java.net.ServerSocket.implAccept(Unknown Source)
+zk3-1  | 	at java.base/java.net.ServerSocket.platformImplAccept(Unknown Source)
+zk3-1  | 	at java.base/java.net.ServerSocket.implAccept(Unknown Source)
+zk3-1  | 	at java.base/java.net.ServerSocket.implAccept(Unknown Source)
+zk3-1  | 	at java.base/java.net.ServerSocket.accept(Unknown Source)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.acceptConnections(Leader.java:566)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.Leader$LearnerCnxAcceptor$LearnerCnxAcceptorHandler.run(Leader.java:549)
+zk3-1  | 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk3-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk3-1  | 2026-10-30 10:20:50,134 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.RequestThrottler@256] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,134 [myid:] - INFO  [RequestThrottler:o.a.z.s.RequestThrottler@217] - Draining request throttler queue
+zk3-1  | 2026-10-30 10:20:50,134 [myid:] - INFO  [RequestThrottler:o.a.z.s.RequestThrottler@195] - RequestThrottler shutdown. Dropped 0 requests
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.SessionTrackerImpl@253] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.LeaderRequestProcessor@79] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.PrepRequestProcessor@1039] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.ProposalRequestProcessor@95] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@631] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [ProcessThread(sid:3 cport:-1)::o.a.z.s.PrepRequestProcessor@162] - PrepRequestProcessor exited loop!
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.CommitProcessor@419] - CommitProcessor exited loop!
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader$ToBeAppliedRequestProcessor@1176] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.FinalRequestProcessor@668] - shutdown of request processor complete
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.SyncRequestProcessor@255] - Shutting down
+zk3-1  | 2026-10-30 10:20:50,135 [myid:] - INFO  [SyncThread:3:o.a.z.s.SyncRequestProcessor@224] - SyncRequestProcessor exited!
+zk3-1  | 2026-10-30 10:20:50,136 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: looking
+zk3-1  | 2026-10-30 10:20:50,136 [myid:] - WARN  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1601] - PeerState set to LOOKING
+zk3-1  | 2026-10-30 10:20:50,136 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+zk3-1  | 2026-10-30 10:20:50,136 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@947] - New election. My id = 3, proposed zxid=0x100000009
+zk3-1  | 2026-10-30 10:20:50,138 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-10-30 10:20:50,339 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@997] - Notification time out: 400 ms
+zk3-1  | 2026-10-30 10:20:50,412 [myid:] - INFO  [NIOWorkerThread-17:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /172.26.0.1:52570
+zk3-1  | 2026-10-30 10:20:50,427 [myid:] - INFO  [NIOWorkerThread-18:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /172.26.0.1:52586
+zk3-1  | 2026-10-30 10:20:50,633 [myid:] - INFO  [SessionTracker:o.a.z.s.SessionTrackerImpl@176] - SessionTrackerImpl exited loop!
+zk3-1  | 2026-10-30 10:20:50,740 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@997] - Notification time out: 800 ms
+zk3-1  | 2026-10-30 10:20:51,223 [myid:] - INFO  [NIOWorkerThread-19:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59806
+zk3-1  | 2026-10-30 10:20:51,540 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@997] - Notification time out: 1600 ms
+zk3-1  | 2026-10-30 10:20:53,141 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@997] - Notification time out: 3200 ms
+zk3-1  | 2026-10-30 10:20:54,504 [myid:] - INFO  [NIOWorkerThread-20:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59814
+zk3-1  | 2026-10-30 10:20:54,532 [myid:] - WARN  [NIOWorkerThread-21:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+zk3-1  | java.io.IOException: ZooKeeperServer not running
+zk3-1  | 	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:572)
+zk3-1  | 	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+zk3-1  | 	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+zk3-1  | 	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk3-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk3-1  | 2026-10-30 10:20:55,142 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-3:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 1 at election address zk1/172.26.0.4:3888
+zk3-1  | java.net.SocketTimeoutException: Connect timed out
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.Socket.connect(Unknown Source)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk3-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk3-1  | 2026-10-30 10:20:55,143 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-1:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 2 at election address zk2/172.26.0.2:3888
+zk3-1  | java.net.SocketTimeoutException: Connect timed out
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.Socket.connect(Unknown Source)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk3-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk3-1  | 2026-10-30 10:20:56,342 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.FastLeaderElection@997] - Notification time out: 6400 ms
+zk3-1  | 2026-10-30 10:20:57,365 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-1:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 1 at election address zk1/172.26.0.4:3888
+zk3-1  | java.net.ConnectException: Connection refused
+zk3-1  | 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk3-1  | 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.Socket.connect(Unknown Source)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk3-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk3-1  | 2026-10-30 10:20:57,365 [myid:] - WARN  [QuorumConnectionThread-[myid=3]-3:o.a.z.s.q.QuorumCnxManager@398] - Cannot open channel to 2 at election address zk2/172.26.0.2:3888
+zk3-1  | java.net.ConnectException: Connection refused
+zk3-1  | 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+zk3-1  | 	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+zk3-1  | 	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+zk3-1  | 	at java.base/java.net.Socket.connect(Unknown Source)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:381)
+zk3-1  | 	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:455)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+zk3-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+zk3-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+zk3-1  | 2026-10-30 10:20:57,651 [myid:] - INFO  [NIOWorkerThread-22:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /172.26.0.1:52594
+zk3-1  | 2026-10-30 10:20:57,728 [myid:] - INFO  [ListenerHandler-zk3/172.26.0.3:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.26.0.2:43092
+zk3-1  | 2026-10-30 10:20:57,732 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-10-30 10:20:57,733 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-10-30 10:20:57,738 [myid:] - INFO  [ListenerHandler-zk3/172.26.0.3:3888:o.a.z.s.q.QuorumCnxManager$Listener$ListenerHandler@1073] - Received connection request from /172.26.0.4:57408
+zk3-1  | 2026-10-30 10:20:57,740 [myid:] - INFO  [WorkerReceiver[myid=3]:o.a.z.s.q.FastLeaderElection$Messenger$WorkerReceiver@391] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:3, n.round:0x2, n.peerEpoch:0x1, n.zxid:0x100000009, message format version:0x2, n.config version:0x0
+zk3-1  | 2026-10-30 10:20:57,788 [myid:] - INFO  [NIOWorkerThread-23:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /127.0.0.1:59828
+zk3-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: leading
+zk3-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1565] - LEADING
+zk3-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+zk3-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+zk3-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+zk3-1  | 2026-10-30 10:20:57,941 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 20000 ms
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getData response cache size is initialized with value 400.
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ResponseCache@50] - getChildren response cache size is initialized with value 400.
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@387] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 20000 ms clientPortListenBacklog -1 dataLogdir /datalog/version-2 snapdir /data/version-2
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@637] - LEADING - LEADER ELECTION TOOK - 7806 MS
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: leading - discovery
+zk3-1  | 2026-10-30 10:20:57,942 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x100000009 to /data/version-2/snapshot.100000009
+zk3-1  | 2026-10-30 10:20:57,943 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ZooKeeperServer@588] - Snapshot taken in 0 ms
+zk3-1  | 2026-10-30 10:20:57,953 [myid:] - INFO  [LearnerHandler-/172.26.0.2:43652:o.a.z.s.q.LearnerHandler@511] - Follower sid: 2 : info : zk2:2888:3888:participant
+zk3-1  | 2026-10-30 10:20:57,954 [myid:] - INFO  [LearnerHandler-/172.26.0.4:48352:o.a.z.s.q.LearnerHandler@511] - Follower sid: 1 : info : zk1:2888:3888:participant
+zk3-1  | 2026-10-30 10:20:57,958 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1914] - Dynamic reconfig is disabled, we don't store the last seen config.
+zk3-1  | 2026-10-30 10:20:57,963 [myid:] - INFO  [LearnerHandler-/172.26.0.2:43652:o.a.z.s.ZKDatabase@358] - On disk txn sync enabled with snapshotSizeFactor 0.33
+zk3-1  | 2026-10-30 10:20:57,963 [myid:] - INFO  [LearnerHandler-/172.26.0.2:43652:o.a.z.s.q.LearnerHandler@806] - Synchronizing with Learner sid: 2 maxCommittedLog=0x100000009 minCommittedLog=0x100000001 lastProcessedZxid=0x100000009 peerLastZxid=0x100000009
+zk3-1  | 2026-10-30 10:20:57,963 [myid:] - INFO  [LearnerHandler-/172.26.0.2:43652:o.a.z.s.q.LearnerHandler@851] - Sending DIFF zxid=0x100000009 for peer sid: 2
+zk3-1  | 2026-10-30 10:20:57,966 [myid:] - INFO  [LearnerHandler-/172.26.0.4:48352:o.a.z.s.ZKDatabase@358] - On disk txn sync enabled with snapshotSizeFactor 0.33
+zk3-1  | 2026-10-30 10:20:57,966 [myid:] - INFO  [LearnerHandler-/172.26.0.4:48352:o.a.z.s.q.LearnerHandler@806] - Synchronizing with Learner sid: 1 maxCommittedLog=0x100000009 minCommittedLog=0x100000001 lastProcessedZxid=0x100000009 peerLastZxid=0x100000006
+zk3-1  | 2026-10-30 10:20:57,967 [myid:] - INFO  [LearnerHandler-/172.26.0.4:48352:o.a.z.s.q.LearnerHandler@870] - Using committedLog for peer sid: 1
+zk3-1  | 2026-10-30 10:20:57,967 [myid:] - INFO  [LearnerHandler-/172.26.0.4:48352:o.a.z.s.q.LearnerHandler@978] - Sending DIFF zxid=0x100000009  for peer sid: 1
+zk3-1  | 2026-10-30 10:20:57,971 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: leading - synchronization
+zk3-1  | 2026-10-30 10:20:57,974 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@1566] - Have quorum of supporters, sids: [[2, 3]]; starting up and setting last processed zxid: 0x200000000
+zk3-1  | 2026-10-30 10:20:57,974 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.Leader@1588] - Dynamic reconfig feature is disabled, skip designatedLeader calculation and reconfig processing.
+zk3-1  | 2026-10-30 10:20:57,974 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@490] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+zk3-1  | 2026-10-30 10:20:57,975 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.CommitProcessor@451] - Configuring CommitProcessor with 32 worker threads.
+zk3-1  | 2026-10-30 10:20:57,975 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.ProposalRequestProcessor@57] - zookeeper.forward_learner_requests_to_commit_processor_disabled = false
+zk3-1  | 2026-10-30 10:20:57,975 [myid:] - INFO  [ProcessThread(sid:3 cport:-1)::o.a.z.s.PrepRequestProcessor@138] - PrepRequestProcessor (sid:3) started, reconfigEnabled=false
+zk3-1  | 2026-10-30 10:20:57,975 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+zk3-1  | 2026-10-30 10:20:57,976 [myid:] - INFO  [QuorumPeer[myid=3](plain=[0:0:0:0:0:0:0:0]:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: leading - broadcast
+zk3-1  | 2026-10-30 10:20:58,206 [myid:] - INFO  [NIOWorkerThread-24:o.a.z.s.NIOServerCnxn@532] - Processing srvr command from /172.26.0.1:52596
+zk3-1  | 2026-10-30 10:20:58,230 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LeaderSessionTracker@104] - Committing global session 0x1000001ab170000
+zk3-1  | 2026-10-30 10:20:58,257 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LeaderSessionTracker@104] - Committing global session 0x3000001ab1d0000
+zk3-1  | 2026-10-30 10:20:58,634 [myid:] - INFO  [CommitProcessor:3:o.a.z.s.q.LeaderSessionTracker@104] - Committing global session 0x2000001ab150000
+zk3-1  | 2026-10-30 10:20:59,102 [myid:] - INFO  [RequestThrottler:o.a.z.s.q.QuorumZooKeeperServer@156] - Submitting global closeSession request for session 0x3000001ab1d0000
+

@@ -1,0 +1,56 @@
+name: lab4-zookeeper
+
+x-zookeeper: &zookeeper
+  image: zookeeper:3.9.6-jre-17
+  restart: unless-stopped
+  environment:
+    JVMFLAGS: -Xms64m -Xmx128m
+  healthcheck:
+    test: [CMD, zkServer.sh, status]
+    interval: 3s
+    timeout: 5s
+    retries: 20
+    start_period: 10s
+
+services:
+  zk1:
+    <<: *zookeeper
+    hostname: zk1
+    environment:
+      ZOO_MY_ID: 1
+      JVMFLAGS: -Xms64m -Xmx128m
+    ports: ["127.0.0.1:2181:2181"]
+    volumes:
+      - ./config/zoo.cfg:/conf/zoo.cfg:ro
+      - zk1-data:/data
+      - zk1-log:/datalog
+  zk2:
+    <<: *zookeeper
+    hostname: zk2
+    environment:
+      ZOO_MY_ID: 2
+      JVMFLAGS: -Xms64m -Xmx128m
+    ports: ["127.0.0.1:2182:2181"]
+    volumes:
+      - ./config/zoo.cfg:/conf/zoo.cfg:ro
+      - zk2-data:/data
+      - zk2-log:/datalog
+  zk3:
+    <<: *zookeeper
+    hostname: zk3
+    environment:
+      ZOO_MY_ID: 3
+      JVMFLAGS: -Xms64m -Xmx128m
+    ports: ["127.0.0.1:2183:2181"]
+    volumes:
+      - ./config/zoo.cfg:/conf/zoo.cfg:ro
+      - zk3-data:/data
+      - zk3-log:/datalog
+
+volumes:
+  zk1-data:
+  zk1-log:
+  zk2-data:
+  zk2-log:
+  zk3-data:
+  zk3-log:

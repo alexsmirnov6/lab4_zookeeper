@@ -1,0 +1,32 @@
+{
+  "recorded_at_utc": "2026-10-30T10:20:33.969953+00:00",
+  "image": "zookeeper:3.9.6-jre-17",
+  "initial_roles": {
+    "zk1": "follower",
+    "zk2": "follower",
+    "zk3": "leader"
+  },
+  "one_server_stopped": {
+    "server": "zk1",
+    "write_read_succeeded": true
+  },
+  "two_servers_stopped": {
+    "servers": [
+      "zk1",
+      "zk2"
+    ],
+    "read_write_session_unavailable": true
+  },
+  "restored_roles": {
+    "zk1": "follower",
+    "zk2": "follower",
+    "zk3": "leader"
+  },
+  "ephemeral": {
+    "path": "/lab4/ensemble/ephemeral-1793355661669150900",
+    "created_in_zkcli": true,
+    "owner": 144115195241103360,
+    "absent_after_quit": true
+  },
+  "all_passed": true
+}

@@ -1,0 +1,4 @@
+WARNING:kazoo.client:Connection dropped: socket connection error: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+WARNING:kazoo.client:Connection dropped: socket connection error: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+WARNING:kazoo.client:Connection dropped: socket connection broken
+WARNING:kazoo.client:Connection dropped: socket connection error: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
