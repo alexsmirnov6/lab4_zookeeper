@@ -1,0 +1,218 @@
+$ docker compose -f compose.yaml -f compose.app.yaml up -d --wait zk1 zk2 zk3 rustfs
+ Container lab4-zookeeper-zk3-1  Running
+ Container lab4-zookeeper-zk2-1  Running
+ Container lab4-zookeeper-zk1-1  Running
+ Container lab4-zookeeper-rustfs-1  Running
+ Container lab4-zookeeper-rustfs-1  Waiting
+ Container lab4-zookeeper-zk2-1  Waiting
+ Container lab4-zookeeper-zk3-1  Waiting
+ Container lab4-zookeeper-zk1-1  Waiting
+ Container lab4-zookeeper-zk1-1  Healthy
+ Container lab4-zookeeper-zk3-1  Healthy
+ Container lab4-zookeeper-rustfs-1  Healthy
+ Container lab4-zookeeper-zk2-1  Healthy
+
+$ docker compose -f compose.yaml -f compose.app.yaml up -d --build --wait receiver
+#1 [internal] load local bake definitions
+#1 reading from stdin 557B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 252B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.6s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 99B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 12.71kB done
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/python:3.12-slim@sha256:aa943ce411423c7582288f18707ff66eddcbaeb510502d747a72aeb34f30d159
+#6 resolve docker.io/library/python:3.12-slim@sha256:aa943ce411423c7582288f18707ff66eddcbaeb510502d747a72aeb34f30d159 0.0s done
+#6 DONE 0.1s
+
+#7 [2/5] WORKDIR /app
+#7 CACHED
+
+#8 [3/5] COPY requirements.txt .
+#8 CACHED
+
+#9 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#9 CACHED
+
+#10 [5/5] COPY src/ ./src/
+#10 DONE 0.1s
+
+#11 exporting to image
+#11 exporting layers 0.1s done
+#11 exporting manifest sha256:04388986fdd0f6660031170f012069acf314f04e7a11c91f515ad6bb3010fc76 0.0s done
+#11 exporting config sha256:6168bdd920f35c2765583dabeea0c5529e6c622959266fe0dbb4c156ab8e0074 0.0s done
+#11 exporting attestation manifest sha256:5aa8178fecb62f2d7afb535a1c5068166c67c0dd015b16ec8df54acbbcd0915e 0.1s done
+#11 exporting manifest list sha256:8566786b1492435b0a61b140b084aedc524cd4d24656eb3b814341496137e4a8
+#11 exporting manifest list sha256:8566786b1492435b0a61b140b084aedc524cd4d24656eb3b814341496137e4a8 0.0s done
+#11 naming to docker.io/library/lab4-coordinator:local done
+#11 unpacking to docker.io/library/lab4-coordinator:local 0.0s done
+#11 DONE 0.4s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+ lab4-coordinator:local  Built
+ Container lab4-zookeeper-zk3-1  Running
+ Container lab4-zookeeper-zk1-1  Running
+ Container lab4-zookeeper-rustfs-1  Running
+ Container lab4-zookeeper-zk2-1  Running
+ Container lab4-zookeeper-receiver-1  Recreate
+ Container lab4-zookeeper-receiver-1  Recreated
+ Container lab4-zookeeper-zk2-1  Waiting
+ Container lab4-zookeeper-zk3-1  Waiting
+ Container lab4-zookeeper-rustfs-1  Waiting
+ Container lab4-zookeeper-zk1-1  Waiting
+ Container lab4-zookeeper-zk2-1  Healthy
+ Container lab4-zookeeper-zk3-1  Healthy
+ Container lab4-zookeeper-rustfs-1  Healthy
+ Container lab4-zookeeper-zk1-1  Healthy
+ Container lab4-zookeeper-receiver-1  Starting
+ Container lab4-zookeeper-receiver-1  Started
+ Container lab4-zookeeper-zk2-1  Waiting
+ Container lab4-zookeeper-zk3-1  Waiting
+ Container lab4-zookeeper-receiver-1  Waiting
+ Container lab4-zookeeper-rustfs-1  Waiting
+ Container lab4-zookeeper-zk1-1  Waiting
+ Container lab4-zookeeper-zk3-1  Healthy
+ Container lab4-zookeeper-zk2-1  Healthy
+ Container lab4-zookeeper-zk1-1  Healthy
+ Container lab4-zookeeper-rustfs-1  Healthy
+ Container lab4-zookeeper-receiver-1  Healthy
+
+$ docker compose -f compose.yaml -f compose.app.yaml up -d coordinator-a coordinator-b
+ Container lab4-zookeeper-rustfs-1  Running
+ Container lab4-zookeeper-zk3-1  Running
+ Container lab4-zookeeper-zk2-1  Running
+ Container lab4-zookeeper-zk1-1  Running
+ Container lab4-zookeeper-receiver-1  Running
+ Container lab4-zookeeper-coordinator-a-1  Recreate
+ Container lab4-zookeeper-coordinator-b-1  Recreate
+ Container lab4-zookeeper-coordinator-a-1  Recreated
+ Container lab4-zookeeper-coordinator-b-1  Recreated
+ Container lab4-zookeeper-zk1-1  Waiting
+ Container lab4-zookeeper-zk2-1  Waiting
+ Container lab4-zookeeper-zk3-1  Waiting
+ Container lab4-zookeeper-rustfs-1  Waiting
+ Container lab4-zookeeper-zk2-1  Healthy
+ Container lab4-zookeeper-zk1-1  Healthy
+ Container lab4-zookeeper-zk3-1  Healthy
+ Container lab4-zookeeper-rustfs-1  Healthy
+ Container lab4-zookeeper-receiver-1  Waiting
+ Container lab4-zookeeper-receiver-1  Waiting
+ Container lab4-zookeeper-receiver-1  Healthy
+ Container lab4-zookeeper-receiver-1  Healthy
+ Container lab4-zookeeper-coordinator-b-1  Starting
+ Container lab4-zookeeper-coordinator-a-1  Starting
+ Container lab4-zookeeper-coordinator-b-1  Started
+ Container lab4-zookeeper-coordinator-a-1  Started
+
+$ docker compose -f compose.yaml -f compose.app.yaml pause coordinator-a
+ Container lab4-zookeeper-coordinator-a-1  Paused
+
+$ docker compose -f compose.yaml -f compose.app.yaml unpause coordinator-a
+ Container lab4-zookeeper-coordinator-a-1  Unpaused
+
+$ docker compose -f compose.yaml -f compose.app.yaml logs --no-color receiver coordinator-a coordinator-b
+receiver-1       | {"time": "2026-10-30T10:29:03.334046+00:00", "component": "receiver", "event": "started", "fencing": true}
+coordinator-a-1  | {"time": "2026-10-30T10:29:05.766434+00:00", "component": "coordinator-a", "event": "session_state", "state": "CONNECTED"}
+coordinator-a-1  | {"time": "2026-10-30T10:29:05.766610+00:00", "component": "coordinator-a", "event": "started", "requested_session_timeout_seconds": 10}
+coordinator-b-1  | {"time": "2026-10-30T10:29:05.789314+00:00", "component": "coordinator-b", "event": "session_state", "state": "CONNECTED"}
+coordinator-a-1  | {"time": "2026-10-30T10:29:05.776597+00:00", "component": "coordinator-a", "event": "candidate", "path": "/lab4/runs/fencing-1-20261030T102900-401400/election/candidate-0000000000"}
+coordinator-a-1  | {"time": "2026-10-30T10:29:05.786968+00:00", "component": "coordinator-a", "event": "became_leader", "epoch": 1, "coordinator": "coordinator-a", "time_unix_ns": 1793356145781329393}
+coordinator-a-1  | {"time": "2026-10-30T10:29:05.946204+00:00", "component": "coordinator-a", "event": "checkpoint_committed", "completed": 1, "vacancies": 218}
+receiver-1       | {"time": "2026-10-30T10:29:05.942884+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-a", "epoch": 1, "version": 1, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-a-1-1.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:05.789477+00:00", "component": "coordinator-b", "event": "started", "requested_session_timeout_seconds": 10}
+coordinator-b-1  | {"time": "2026-10-30T10:29:05.799617+00:00", "component": "coordinator-b", "event": "candidate", "path": "/lab4/runs/fencing-1-20261030T102900-401400/election/candidate-0000000001"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:17.552520+00:00", "component": "coordinator-b", "event": "became_leader", "epoch": 2, "coordinator": "coordinator-b", "time_unix_ns": 1793356157547140085}
+receiver-1       | {"time": "2026-10-30T10:29:17.677339+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 2, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-2.json"}
+receiver-1       | {"time": "2026-10-30T10:29:18.042862+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 3, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-3.json"}
+receiver-1       | {"time": "2026-10-30T10:29:18.411648+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 4, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-4.json"}
+coordinator-a-1  | Connection dropped: socket connection broken
+receiver-1       | {"time": "2026-10-30T10:29:18.783660+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 5, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-5.json"}
+receiver-1       | {"time": "2026-10-30T10:29:19.132037+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 6, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-6.json"}
+receiver-1       | {"time": "2026-10-30T10:29:19.515507+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 7, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-7.json"}
+receiver-1       | {"time": "2026-10-30T10:29:19.888107+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 8, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-8.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:17.618635+00:00", "component": "coordinator-b", "event": "checkpoint_loaded", "completed": 1, "vacancies": 218, "source_coordinator": "coordinator-a"}
+receiver-1       | {"time": "2026-10-30T10:29:20.260394+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 9, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-9.json"}
+coordinator-a-1  | Transition to CONNECTING
+coordinator-a-1  | {"time": "2026-10-30T10:29:47.631174+00:00", "component": "coordinator-a", "event": "session_state", "state": "SUSPENDED"}
+coordinator-a-1  | Session has expired
+coordinator-b-1  | {"time": "2026-10-30T10:29:17.681542+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 2, "vacancies": 442}
+coordinator-a-1  | {"time": "2026-10-30T10:29:47.635010+00:00", "component": "coordinator-a", "event": "session_state", "state": "LOST"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:18.045063+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 3, "vacancies": 653}
+coordinator-b-1  | {"time": "2026-10-30T10:29:18.413899+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 4, "vacancies": 871}
+coordinator-b-1  | {"time": "2026-10-30T10:29:18.785882+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 5, "vacancies": 1092}
+coordinator-b-1  | {"time": "2026-10-30T10:29:19.134408+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 6, "vacancies": 1305}
+coordinator-b-1  | {"time": "2026-10-30T10:29:19.517808+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 7, "vacancies": 1517}
+receiver-1       | {"time": "2026-10-30T10:29:20.656105+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 10, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-10.json"}
+receiver-1       | {"time": "2026-10-30T10:29:21.038335+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 11, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-11.json"}
+receiver-1       | {"time": "2026-10-30T10:29:21.434369+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 12, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-12.json"}
+receiver-1       | {"time": "2026-10-30T10:29:21.819434+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 13, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-13.json"}
+coordinator-a-1  | {"time": "2026-10-30T10:29:47.641707+00:00", "component": "coordinator-a", "event": "session_state", "state": "CONNECTED"}
+coordinator-a-1  | {"time": "2026-10-30T10:29:47.657777+00:00", "component": "coordinator-a", "event": "checkpoint_fenced", "epoch": 1}
+coordinator-a-1  | {"time": "2026-10-30T10:29:56.600618+00:00", "component": "coordinator-a", "event": "calculation_complete", "completed": 29, "vacancies": 6215, "unique": 25462, "sha256": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:19.890453+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 8, "vacancies": 1735}
+coordinator-a-1  | {"time": "2026-10-30T10:29:56.628394+00:00", "component": "coordinator-a", "event": "publication_rejected", "epoch": 1, "error": "BadVersionError"}
+coordinator-a-1  | {"time": "2026-10-30T10:29:56.639738+00:00", "component": "coordinator-a", "event": "session_state", "state": "LOST"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:20.262868+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 9, "vacancies": 1949}
+coordinator-b-1  | {"time": "2026-10-30T10:29:20.658423+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 10, "vacancies": 2176}
+receiver-1       | {"time": "2026-10-30T10:29:22.234889+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 14, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-14.json"}
+receiver-1       | {"time": "2026-10-30T10:29:22.605500+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 15, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-15.json"}
+receiver-1       | {"time": "2026-10-30T10:29:23.003762+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 16, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-16.json"}
+receiver-1       | {"time": "2026-10-30T10:29:23.396791+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 17, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-17.json"}
+receiver-1       | {"time": "2026-10-30T10:29:23.792947+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 18, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-18.json"}
+receiver-1       | {"time": "2026-10-30T10:29:24.199693+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 19, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-19.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:21.040477+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 11, "vacancies": 2396}
+receiver-1       | {"time": "2026-10-30T10:29:24.598289+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 20, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-20.json"}
+receiver-1       | {"time": "2026-10-30T10:29:25.004626+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 21, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-21.json"}
+receiver-1       | {"time": "2026-10-30T10:29:25.423579+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 22, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-22.json"}
+receiver-1       | {"time": "2026-10-30T10:29:25.800677+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 23, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-23.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:21.436543+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 12, "vacancies": 2624}
+coordinator-b-1  | {"time": "2026-10-30T10:29:21.821644+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 13, "vacancies": 2855}
+receiver-1       | {"time": "2026-10-30T10:29:26.230572+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 24, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-24.json"}
+receiver-1       | {"time": "2026-10-30T10:29:26.653374+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 25, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-25.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:22.237474+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 14, "vacancies": 3079}
+coordinator-b-1  | {"time": "2026-10-30T10:29:22.607705+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 15, "vacancies": 3308}
+coordinator-b-1  | {"time": "2026-10-30T10:29:23.006011+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 16, "vacancies": 3536}
+coordinator-b-1  | {"time": "2026-10-30T10:29:23.399022+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 17, "vacancies": 3765}
+receiver-1       | {"time": "2026-10-30T10:29:27.078679+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 26, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-26.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:23.795082+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 18, "vacancies": 3979}
+coordinator-b-1  | {"time": "2026-10-30T10:29:24.201995+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 19, "vacancies": 4187}
+coordinator-b-1  | {"time": "2026-10-30T10:29:24.600491+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 20, "vacancies": 4397}
+receiver-1       | {"time": "2026-10-30T10:29:27.472797+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 27, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-27.json"}
+receiver-1       | {"time": "2026-10-30T10:29:27.893614+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 28, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-28.json"}
+receiver-1       | {"time": "2026-10-30T10:29:28.326646+00:00", "component": "receiver", "event": "checkpoint_saved", "coordinator": "coordinator-b", "epoch": 2, "version": 29, "key": "fencing-1-20261030T102900-401400/checkpoints/coordinator-b-2-29.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:25.007043+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 21, "vacancies": 4599}
+receiver-1       | {"time": "2026-10-30T10:29:28.753034+00:00", "component": "receiver", "event": "записал результат", "coordinator": "coordinator-b", "epoch": 2, "version": 1, "key": "fencing-1-20261030T102900-401400/results/coordinator-b-2.json"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:25.425967+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 22, "vacancies": 4802}
+coordinator-b-1  | {"time": "2026-10-30T10:29:25.802924+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 23, "vacancies": 5008}
+coordinator-b-1  | {"time": "2026-10-30T10:29:26.232759+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 24, "vacancies": 5222}
+coordinator-b-1  | {"time": "2026-10-30T10:29:26.655983+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 25, "vacancies": 5429}
+coordinator-b-1  | {"time": "2026-10-30T10:29:27.080892+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 26, "vacancies": 5638}
+coordinator-b-1  | {"time": "2026-10-30T10:29:27.475336+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 27, "vacancies": 5861}
+coordinator-b-1  | {"time": "2026-10-30T10:29:27.895978+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 28, "vacancies": 6007}
+coordinator-b-1  | {"time": "2026-10-30T10:29:28.329117+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 29, "vacancies": 6215}
+coordinator-b-1  | {"time": "2026-10-30T10:29:28.728175+00:00", "component": "coordinator-b", "event": "calculation_complete", "completed": 29, "vacancies": 6215, "unique": 25462, "sha256": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12"}
+receiver-1       | {"time": "2026-10-30T10:29:47.655030+00:00", "component": "receiver", "event": "checkpoint_rejected", "coordinator": "coordinator-a", "epoch": 1, "error": "BadVersionError"}
+receiver-1       | {"time": "2026-10-30T10:29:56.626173+00:00", "component": "receiver", "event": "publication_rejected", "coordinator": "coordinator-a", "epoch": 1, "error": "BadVersionError"}
+coordinator-b-1  | {"time": "2026-10-30T10:29:28.755505+00:00", "component": "coordinator-b", "event": "publication_accepted", "version": 1}
+coordinator-b-1  | {"time": "2026-10-30T10:29:28.768919+00:00", "component": "coordinator-b", "event": "session_state", "state": "LOST"}
+
+$ docker compose -f compose.yaml -f compose.app.yaml stop coordinator-a coordinator-b receiver
+ Container lab4-zookeeper-coordinator-b-1  Stopping
+ Container lab4-zookeeper-coordinator-a-1  Stopping
+ Container lab4-zookeeper-coordinator-b-1  Stopped
+ Container lab4-zookeeper-coordinator-a-1  Stopped
+ Container lab4-zookeeper-receiver-1  Stopping
+ Container lab4-zookeeper-receiver-1  Stopped
+

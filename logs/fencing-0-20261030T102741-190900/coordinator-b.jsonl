@@ -1,0 +1,36 @@
+{"time": "2026-10-30T10:27:59.396620+00:00", "component": "coordinator-b", "event": "session_state", "state": "CONNECTED"}
+{"time": "2026-10-30T10:27:59.396782+00:00", "component": "coordinator-b", "event": "started", "requested_session_timeout_seconds": 10}
+{"time": "2026-10-30T10:27:59.407501+00:00", "component": "coordinator-b", "event": "candidate", "path": "/lab4/runs/fencing-0-20261030T102741-190900/election/candidate-0000000001"}
+{"time": "2026-10-30T10:28:10.453606+00:00", "component": "coordinator-b", "event": "became_leader", "epoch": 2, "coordinator": "coordinator-b", "time_unix_ns": 1793356090448381236}
+{"time": "2026-10-30T10:28:10.526054+00:00", "component": "coordinator-b", "event": "checkpoint_loaded", "completed": 1, "vacancies": 218, "source_coordinator": "coordinator-a"}
+{"time": "2026-10-30T10:28:10.597681+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 2, "vacancies": 429}
+{"time": "2026-10-30T10:28:10.949474+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 3, "vacancies": 653}
+{"time": "2026-10-30T10:28:11.299722+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 4, "vacancies": 871}
+{"time": "2026-10-30T10:28:11.645222+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 5, "vacancies": 1092}
+{"time": "2026-10-30T10:28:11.991673+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 6, "vacancies": 1304}
+{"time": "2026-10-30T10:28:13.482032+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 7, "vacancies": 1517}
+{"time": "2026-10-30T10:28:10.421507+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 8, "vacancies": 1735}
+{"time": "2026-10-30T10:28:10.774784+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 9, "vacancies": 1949}
+{"time": "2026-10-30T10:28:11.152430+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 10, "vacancies": 2176}
+{"time": "2026-10-30T10:28:11.515573+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 11, "vacancies": 2396}
+{"time": "2026-10-30T10:28:11.899024+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 12, "vacancies": 2624}
+{"time": "2026-10-30T10:28:12.256229+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 13, "vacancies": 2855}
+{"time": "2026-10-30T10:28:12.643629+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 14, "vacancies": 3079}
+{"time": "2026-10-30T10:28:13.005875+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 15, "vacancies": 3308}
+{"time": "2026-10-30T10:28:13.387838+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 16, "vacancies": 3536}
+{"time": "2026-10-30T10:28:13.755320+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 17, "vacancies": 3765}
+{"time": "2026-10-30T10:28:14.138078+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 18, "vacancies": 3979}
+{"time": "2026-10-30T10:28:14.537498+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 19, "vacancies": 4187}
+{"time": "2026-10-30T10:28:14.908453+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 20, "vacancies": 4389}
+{"time": "2026-10-30T10:28:15.305532+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 21, "vacancies": 4599}
+{"time": "2026-10-30T10:28:15.728209+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 22, "vacancies": 4805}
+{"time": "2026-10-30T10:28:16.113633+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 23, "vacancies": 5008}
+{"time": "2026-10-30T10:28:16.516504+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 24, "vacancies": 5215}
+{"time": "2026-10-30T10:28:16.916480+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 25, "vacancies": 5429}
+{"time": "2026-10-30T10:28:17.335323+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 26, "vacancies": 5652}
+{"time": "2026-10-30T10:28:17.743959+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 27, "vacancies": 5861}
+{"time": "2026-10-30T10:28:18.207253+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 28, "vacancies": 6007}
+{"time": "2026-10-30T10:28:18.620501+00:00", "component": "coordinator-b", "event": "checkpoint_committed", "completed": 29, "vacancies": 6215}
+{"time": "2026-10-30T10:28:19.013591+00:00", "component": "coordinator-b", "event": "calculation_complete", "completed": 29, "vacancies": 6215, "unique": 25462, "sha256": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12"}
+{"time": "2026-10-30T10:28:19.043642+00:00", "component": "coordinator-b", "event": "publication_accepted", "version": 1}
+{"time": "2026-10-30T10:28:19.057614+00:00", "component": "coordinator-b", "event": "session_state", "state": "LOST"}

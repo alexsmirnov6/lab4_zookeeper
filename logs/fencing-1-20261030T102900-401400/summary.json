@@ -1,0 +1,31 @@
+{
+  "run_id": "fencing-1-20261030T102900-401400",
+  "fencing": true,
+  "input": {
+    "key": "inputs/5c9daf1ac2c16c3aad36d97e6e23c7cffc6d92f0cf4ca215d73f8140e721b0c7.ndjson",
+    "sha256": "5c9daf1ac2c16c3aad36d97e6e23c7cffc6d92f0cf4ca215d73f8140e721b0c7",
+    "bytes": 1880228
+  },
+  "requested_session_timeout_seconds": 10,
+  "leader": "coordinator-a",
+  "backup": "coordinator-b",
+  "pause_confirmed_at_utc": "2026-10-30T10:29:09.733315+00:00",
+  "leadership_change_seconds": 10.32,
+  "measurement": "monotonic host clock; observation polling 0.1 seconds",
+  "checkpoint_chunks_loaded": 1,
+  "checkpoint_vacancies_loaded": 218,
+  "accepted_publications": 1,
+  "rejected_publications": 1,
+  "pointer_version": 1,
+  "pointer": {
+    "coordinator": "coordinator-b",
+    "epoch": 2,
+    "key": "fencing-1-20261030T102900-401400/results/coordinator-b-2.json",
+    "sha256": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12"
+  },
+  "result_sha256": {
+    "coordinator-a": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12",
+    "coordinator-b": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12"
+  },
+  "all_passed": true
+}

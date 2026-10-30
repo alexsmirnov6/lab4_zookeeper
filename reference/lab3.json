@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/alexsmirnov6/lab3_devops",
+  "commit": "91d07734e297d2543073923be46f33c9f14eb52b",
+  "input_path": "data/prepared/devops_vacancies.ndjson",
+  "input_sha256": "5c9daf1ac2c16c3aad36d97e6e23c7cffc6d92f0cf4ca215d73f8140e721b0c7",
+  "pairs_canonical_sha256": "cafaec2c23af084d67ce40c8cf4e7847ab46bf54766cb1663d1213d500877a12",
+  "vacancies": 6215,
+  "unique_pairs": 25462,
+  "total_pairs": 173204
+}

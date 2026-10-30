@@ -1,0 +1,75 @@
+x-application: &application
+  build: .
+  image: lab4-coordinator:local
+  environment: &application-environment
+    ZK_HOSTS: zk1:2181,zk2:2181,zk3:2181
+    RUN_ID: ${RUN_ID:?Set RUN_ID for the experiment}
+    FENCING: ${FENCING:-1}
+    S3_ENDPOINT: http://rustfs:9000
+    RUSTFS_ACCESS_KEY: ${RUSTFS_ACCESS_KEY:?Create .env}
+    RUSTFS_SECRET_KEY: ${RUSTFS_SECRET_KEY:?Create .env}
+    RESULT_RECEIVER: http://receiver:8080
+    CHUNK_BYTES: 65536
+    CHUNK_DELAY: 0.3
+    LOG_DIR: /app/logs
+  volumes:
+    - ${APP_LOG_DIR:-./logs/current}:/app/logs
+  depends_on:
+    zk1: {condition: service_healthy}
+    zk2: {condition: service_healthy}
+    zk3: {condition: service_healthy}
+    rustfs: {condition: service_healthy}
+
+services:
+  rustfs:
+    image: rustfs/rustfs:1.0.0
+    user: "0:0"
+    environment:
+      RUSTFS_ACCESS_KEY: ${RUSTFS_ACCESS_KEY:?Create .env}
+      RUSTFS_SECRET_KEY: ${RUSTFS_SECRET_KEY:?Create .env}
+      RUSTFS_ADDRESS: :9000
+      RUSTFS_CONSOLE_ADDRESS: :9001
+      RUSTFS_CONSOLE_ENABLE: "true"
+      RUSTFS_VOLUMES: /data/disk{1...4}
+      RUSTFS_UNSAFE_BYPASS_DISK_CHECK: "true"
+    ports: ["127.0.0.1:9100:9000", "127.0.0.1:9101:9001"]
+    volumes:
+      - rustfs-disk1:/data/disk1
+      - rustfs-disk2:/data/disk2
+      - rustfs-disk3:/data/disk3
+      - rustfs-disk4:/data/disk4
+    healthcheck:
+      test: [CMD, curl, -f, http://localhost:9000/health]
+      interval: 3s
+      timeout: 5s
+      retries: 30
+      start_period: 10s
+  receiver:
+    <<: *application
+    command: [python, src/receiver.py]
+    ports: ["127.0.0.1:9180:8080"]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8080/health')"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+  coordinator-a:
+    <<: *application
+    environment:
+      <<: *application-environment
+      COORDINATOR_ID: coordinator-a
+    depends_on:
+      receiver: {condition: service_healthy}
+  coordinator-b:
+    <<: *application
+    environment:
+      <<: *application-environment
+      COORDINATOR_ID: coordinator-b
+    depends_on:
+      receiver: {condition: service_healthy}
+
+volumes:
+  rustfs-disk1:
+  rustfs-disk2:
+  rustfs-disk3:
+  rustfs-disk4:
